@@ -1,0 +1,5 @@
+#!/bin/bash
+
+## Usage: db-update
+
+./bin/console doctrine:migrations:migrate -n
